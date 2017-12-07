@@ -1,0 +1,208 @@
+***Sample with non-existent file name in tjr0023_3.cpp***
+tyler13@tyler13-VirtualBox:~$ ./lab3
+Maze File either not found or not formatted properly. Exiting Program.
+
+***Sample with one quick run through Maze 1***
+tyler13@tyler13-VirtualBox:~$ ./lab3
+=====================================================
+|    Welcome to the Snakes and Ladders Maze Game    |
+=====================================================
+
+Enter the number of players: 1
+Enter the Name of Player #1: QuickWin
+
+=====================
+|  QuickWin's turn  |
+=====================
+
+QuickWin's turn to throw the dice, just hit enter 
+QuickWin's dice throw is 4
+QuickWin can move to 4 nodes
+
+QuickWin is currently in Node A1 of the Maze Game, you can go East only. What is your choice?
+E
+QuickWin is currently in Node B1 of the Maze Game, you can go North only. What is your choice?
+N
+QuickWin is currently in Node B2 of the Maze Game, you can go East or South or West. What is your choice?
+W
+QuickWin is currently in Node A2 of the Maze Game, you can go North or East. What is your choice?
+N
+
+=====================
+|  QuickWin's turn  |
+=====================
+
+QuickWin's turn to throw the dice, just hit enter
+QuickWin's dice throw is 5
+QuickWin can move to 5 nodes
+
+QuickWin is currently in Node A3 of the Maze Game, and you have taken a ladder to D3, you can go North or South or West. What is your choice?
+N
+QuickWin is currently in Node D4 of the Maze Game, you can go North or East or South or West. What is your choice?
+E
+QuickWin is currently in Node E4 of the Maze Game, you can go East or West. What is your choice?
+E
+QuickWin is currently in Node F4 of the Maze Game, you can go East or South or West. What is your choice?
+E
+QuickWin is currently in Node G4 of the Maze Game, you can go North or South or West. What is your choice?
+N
+
+=====================
+|  QuickWin's turn  |
+=====================
+
+QuickWin's turn to throw the dice, just hit enter
+QuickWin's dice throw is 5
+QuickWin can move to 5 nodes
+
+QuickWin is currently in Node G5 of the Maze Game, you can go East or South. What is your choice?
+E
+QuickWin is currently in Node H5 of the Maze Game, you can go North or West. What is your choice?
+N
+
+Congratulations, QuickWin is the winner! You have reached the destination point.
+You took 11 steps.
+The steps you visited are: A1 B1 B2 A2 A3 D3 D4 E4 F4 G4 G5 H5 H6
+
+***Sample with Maze 1 and 2 players***
+tyler13@tyler13-VirtualBox:~$ ./lab3
+=====================================================
+|    Welcome to the Snakes and Ladders Maze Game    |
+=====================================================
+
+Enter the number of players: Q
+Please enter a valid number: 2
+Enter the Name of Player #1: Tyler
+Enter the Name of Player #2: Bot
+
+=====================
+|   Tyler's turn    |
+=====================
+
+Tyler's turn to throw the dice, just hit enter
+Tyler's dice throw is 3
+Tyler can move to 3 nodes
+
+Tyler is currently in Node A1 of the Maze Game, you can go East only. What is your choice?
+E
+Tyler is currently in Node B1 of the Maze Game, you can go North only. What is your choice?
+N
+Tyler is currently in Node B2 of the Maze Game, you can go East or South or West. What is your choice?
+E
+
+=====================
+|    Bot's turn     |
+=====================
+
+Bot's turn to throw the dice, just hit enter
+Bot's dice throw is 6
+Bot can move to 6 nodes
+
+Bot is currently in Node A1 of the Maze Game, you can go East only. What is your choice?
+E
+Bot is currently in Node B1 of the Maze Game, you can go North only. What is your choice?
+S
+Please enter a valid direction in proper format (N, E, W, or S): North only
+N
+Bot is currently in Node B2 of the Maze Game, you can go East or South or West. What is your choice?
+E
+Bot is currently in Node C2 of the Maze Game, you can go North or South or West. What is your choice?
+E
+Please enter a valid direction in proper format (N, E, W, or S): North or South or West
+N
+Bot is currently in Node C3 of the Maze Game, you can go East or South or West. What is your choice?
+N
+Please enter a valid direction in proper format (N, E, W, or S): East or South or West
+E 
+Bot is currently in Node D3 of the Maze Game, you can go North or South or West. What is your choice?
+N
+
+=====================
+|   Tyler's turn    |
+=====================
+
+Tyler's turn to throw the dice, just hit enter
+Tyler's dice throw is 6
+Tyler can move to 6 nodes
+
+Tyler is currently in Node C2 of the Maze Game, you can go North or South or West. What is your choice?
+N
+Tyler is currently in Node C3 of the Maze Game, you can go East or South or West. What is your choice?
+N
+Please enter a valid direction in proper format (N, E, W, or S): East or South or West
+E
+Tyler is currently in Node D3 of the Maze Game, you can go North or South or West. What is your choice?
+N
+Tyler is currently in Node D4 of the Maze Game, you can go North or East or South or West. What is your choice?
+N
+Tyler is currently in Node D5 of the Maze Game, you can go North or East or South. What is your choice?
+N
+Tyler is currently in Node D6 of the Maze Game, you have taken a snake to C3 you can go East or South or West. What is your choice?
+E
+
+=====================
+|    Bot's turn     |
+=====================
+
+Bot's turn to throw the dice, just hit enter
+Bot's dice throw is 1
+Bot can move to 1 nodes
+
+Bot is currently in Node D4 of the Maze Game, you can go North or East or South or West. What is your choice?
+N
+
+=====================
+|   Tyler's turn    |
+=====================
+
+Tyler's turn to throw the dice, just hit enter
+Tyler's dice throw is 4
+Tyler can move to 4 nodes
+
+Tyler is currently in Node D3 of the Maze Game, you can go North or South or West. What is your choice?
+N
+Tyler is currently in Node D4 of the Maze Game, you can go North or East or South or West. What is your choice?
+E
+Tyler is currently in Node E4 of the Maze Game, you can go East or West. What is your choice?
+E
+Tyler is currently in Node F4 of the Maze Game, you can go East or South or West. What is your choice?
+E
+
+=====================
+|    Bot's turn     |
+=====================
+
+Bot's turn to throw the dice, just hit enter
+Bot's dice throw is 3
+Bot can move to 3 nodes
+
+Bot is currently in Node D5 of the Maze Game, you can go North or East or South. What is your choice?
+N
+Bot is currently in Node D6 of the Maze Game, you have taken a snake to C3 you can go East or South or West. What is your choice?
+e
+Please enter a valid direction in proper format (N, E, W, or S): East or South or West
+E
+Bot is currently in Node D3 of the Maze Game, you can go North or South or West. What is your choice?
+E
+Please enter a valid direction in proper format (N, E, W, or S): North or South or West
+N
+
+=====================
+|   Tyler's turn    |
+=====================
+
+Tyler's turn to throw the dice, just hit enter
+Tyler's dice throw is 6
+Tyler can move to 6 nodes
+
+Tyler is currently in Node G4 of the Maze Game, you can go North or South or West. What is your choice?
+N
+Tyler is currently in Node G5 of the Maze Game, you can go East or South. What is your choice?
+E
+Tyler is currently in Node H5 of the Maze Game, you can go North or West. What is your choice?
+N
+
+Congratulations, Tyler is the winner! You have reached the destination point.
+You took 16 steps.
+The steps you visited are: A1 B1 B2 C2 C3 D3 D4 D5 D6 C3 D3 D4 E4 F4 G4 G5 H5 H6
+
